@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    background: #000;
+}
+section{
+    background-image: url('./img/fondo.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 180px;
+    height: 180px;
+}
+button{
+    background: red;
+    margin: 1.5rem 0;
+    padding: 1rem 2.5rem;
+    border-radius: 25px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+}
+footer{
+    background: #000;
+}
